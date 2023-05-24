@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenando tensores</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+<body>
+    
+    
+    <div>
+        <label for="repeticiones">Epocas:</label>
+        <input type="number" id="repeticiones" name="repeticiones">
+        <button onclick="Entrenar()">Entrenar</button>
+    </div>
+
+    <div>
+        <label for="valorPredecir">eje x</label>
+        <input type="number" id="valorPredecir" name="valorPredecir">
+        <button onclick="Predecir()">Predecir</button>
+    </div>
+
+    <div id="micro-out-div">Entrenando...</div>
+    
+    <script src="./app.js"> </script>
+</body>
+</html>
